@@ -1,15 +1,20 @@
 package com.company.designpatternsexamples.behavioral.memento.example2;
 
+import java.time.format.DateTimeFormatter;
+import java.util.Date;
+
 /**
  * @author eugenia
  */
 public class Main {
 
+    private static final DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy-MM-dd'T'HH:mm:ssZ");
+
     public static void main(String[] args) {
 
         Originator originator = new Originator();
         CareTaker careTaker = new CareTaker();
-    
+
         originator.setState("State 1 at " + System.currentTimeMillis());
         originator.setState("State 2 at " + System.currentTimeMillis());
         careTaker.add(originator.saveStateToMemento());

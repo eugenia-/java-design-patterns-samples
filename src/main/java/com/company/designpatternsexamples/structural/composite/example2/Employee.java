@@ -20,7 +20,7 @@ class Employee {
         this.name = name;
         this.position = position;
         this.wage = wage;
-        coworkers = new ArrayList<Employee>();
+        coworkers = new ArrayList<>();
     }
 
     public void addCoworker(Employee employee) {

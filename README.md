@@ -1,3 +1,6 @@
+The project contains different examples of Structural and Behavioral design patterns in java and can be used to get 
+acquaint with or refresh knowledge of the design patterns that are listed below.
+
 # Structural design pattern
 Structural patterns provide different ways to create a class structure, 
 for example using inheritance and composition to create a large object from small objects.
@@ -203,10 +206,10 @@ Memento class can be private, so that it's not possible to accessed it from othe
 
 ##### Examples
 - example1 - File writer util
-- example2 - 
+- example2 - List of stored objects
 
 
-## Resources
+# Resources
 https://www.journaldev.com/1827/java-design-patterns-example-tutorial
 
 https://stackabuse.com/structural-design-patterns-in-java/
